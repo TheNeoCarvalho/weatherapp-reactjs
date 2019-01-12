@@ -9,13 +9,39 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.App-body input {
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.App-body button {
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-weight: 700;
+  background-color: #069;
+  color: #fff;
 }
 
 .App-link {
