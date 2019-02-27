@@ -6,7 +6,6 @@ import "./App.css";
 import Form from "./components/Form";
 
 const API_KEY = "740df5c4e1922ff2467000128a9bb1a6";
-//const API_GOOGLE = "AIzaSyAbbCQqqgFKdkEwhgE9yD8ugASaWtogeTU";
 
 class App extends Component {
   state = {
