@@ -6,6 +6,7 @@ import "./App.css";
 import Form from "./components/Form";
 
 const API_KEY = "740df5c4e1922ff2467000128a9bb1a6";
+//const API_GOOGLE = "AIzaSyAbbCQqqgFKdkEwhgE9yD8ugASaWtogeTU";
 
 class App extends Component {
   state = {
@@ -30,7 +31,7 @@ class App extends Component {
     const city = e.target.elements.city.value;
     const country = e.target.elements.country.value;
     const api_call = await fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`
     );
     const data = await api_call.json();
     this.setState({
